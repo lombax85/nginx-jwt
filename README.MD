@@ -1,6 +1,6 @@
 # Proof of concept of NGINX + JWT Validation
 
-This is a proof of concept of JWT token validation with NGINX using NJS, a subset of Javascript that 
+This is a git remote add origin https://github.com/lombax85/nginx-jwt.git, a subset of Javascript that 
 allows extending NGINX functionalities: https://nginx.org/en/docs/njs/  
 We will try to consume a protected static file, that will be accessible only when a valid token is provided.
 
@@ -15,7 +15,7 @@ https://www.nginx.com/products/buy-nginx-plus/
 
     git clone
     bash pull.sh
-    bash restart.sh
+    bash start.sh
     
 The container will start and attach to port 81.
     
@@ -36,6 +36,10 @@ Moreover, a static test file with no JWT validation is provided at
     http://localhost:81/static/static_file.txt
 
 The secret used to validate this token is "secret" (look in `config\module.js`)
+
+## Stop
+
+    bash stop.sh
 
 ## Benchmark
 
