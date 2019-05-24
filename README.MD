@@ -1,6 +1,6 @@
 # Proof of concept of NGINX + JWT Validation
 
-This is a git remote add origin https://github.com/lombax85/nginx-jwt.git, a subset of Javascript that 
+This is a proof of concept of JWT token validation with NGINX using NJS, a subset of Javascript that
 allows extending NGINX functionalities: https://nginx.org/en/docs/njs/  
 We will try to consume a protected static file, that will be accessible only when a valid token is provided.
 
