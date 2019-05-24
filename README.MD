@@ -11,9 +11,15 @@ https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-jwt-authe
 
 https://www.nginx.com/products/buy-nginx-plus/
 
+## Prerequisites
+- Docker
+- Bash
+- Web Browser
+
 ## Project startup
 
-    git clone
+Clone the repository, cd into and then
+
     bash pull.sh
     bash start.sh
     
